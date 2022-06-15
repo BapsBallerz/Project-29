@@ -39,11 +39,11 @@ function setup() {
   jointPoint = new Bridge(width - 600, height / 2 + 10, 40, 20, "#8d6e63", true);*/
 
   
-  //Matter.Composite.add(bridge.body, jointPoint);
+  Matter.Composite.add(bridge.body, jointPoint);
 
   //Matter.Composite.add(jointPoint);
   
-  Matter.Composite.add(jointPoint, bridge.body);
+  //Matter.Composite.add(jointPoint, bridge.body);
   
   //Matter.Composite.add(bridge.body);
 
